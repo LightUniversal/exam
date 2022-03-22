@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family : "Lato";
+}
+
+div.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0% auto;
+    background-color: rgba(243, 83, 123, 0.1);
+     padding: 3% 2%;
+}
+
+#particles-js {
+    position:fixed;
+    left:10%;
+    width:90%;
+    /* padding:0% 5%; */
+    z-index: 0;
+    height:100%;
+    top:100px;
+  }
+
+div.container header {
+    text-align: center;
+}
+div.container header h3 {
+    color: rgb(14, 4, 4);
+}
+.fa-desktop {
+    padding-left:0.21%;
+    vertical-align: middle;
+    color:blue;
+}
+#start {
+    background-color: blue;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0.5px 0.5px 0.5px rgb(10, 10, 10);
+}
+div.container  form#createForm input {
+    position: relative;
+    z-index: 100;
+    display: block;
+    margin: 1% auto;
+    width: 90%;
+    padding: 0% 2%;
+    font-weight: 600;
+    letter-spacing:0.5px ;
+    height: 50px;
+    border: thin solid rgba(0,0,10,0.1);
+    outline: none;
+    border-radius: 2px;
+}
+div.container form input[type="radio"] {
+    display: inline;
+    vertical-align: middle;
+    cursor: pointer;
+}
+div.container form label {
+    font-weight: 600;
+    font-size:13px;
+}
+div.container header h3 {
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+.time-factor    {
+    /* display: inline; */
+    margin:3%;
+    /* background-color: salmon; */
+}
+.mid {
+    position: relative;
+    z-index: 500;
+}
+#done {
+    background-color: blue;
+    color: #fff !important;
+    padding: 10px 30px;
+    border: none;
+    position: relative;
+    z-index:1000;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 2px;
+}
+#done:active {
+    transform: scale(0.9);
+    transition: all ease-in-out 1s;
+}
+.timer, .score  {
+    /* color: rgba(255, 255, 255, 1); */
+    margin: 2px 10%;
+    font-size:15px;
+    text-transform: uppercase;
+    /* font-family: monospace; */
+    font-weight: 600;
+    text-shadow: 0.6px 0.3px 0.5px rgba(44, 43, 43,0.2);
+}
+.timer  {
+    float: right;
+    margin-right: 15%;
+    
+}
+.actions    {
+    /* overflow: auto; */
+    position: relative;
+    width: 100%;
+    /* margin-top: 2%; */
+    z-index: 200;
+    height: 100px;
+    background-color: rgba(250, 246, 247,0.2);
+}
+#begin {
+    background-color: blue;
+}
+#submit {
+    background-color: red;
+}
+#begin, #submit {
+    padding: 5px 25px;
+    border: thin solid rgba(0,0,10,0.1);
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border-radius: 2px;
+    font-weight: 600;
+}
+.start, .suspend, .submit   {
+    position: absolute;
+}
+.start  {
+    left: 10%;
+    top: 30%;
+}
+.suspend    {
+    /* position: absolute; */
+    right: 40%;
+    
+}
+@media(min-width : 800px)   {
+    .suspend    {
+        /* position: absolute; */
+        right: 47%;
+    }
+}
+.submit {
+    /* position: relative; */
+    /* left: 78%; */
+    top: 30%;
+    
+    right: 15%;
+}
+
+.next-box   {
+    background-color: seashell;
+    padding:2% 15% 0 10%;
+}
+.questions > label {
+    /* font-family: monospace; */
+    font-size: 18px;
+}
+.options {
+    /* display: inlinblock; */
+    margin: 5px;
+    border: thin solid rgba(98, 98, 238,0.13);
+    padding: 2% 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.options    label   {
+    /* font-family: monospace; */
+    color: rgba(34, 28, 28,0.95);
+    font-weight: 300;
+    display: inline-block;
+    font-size: 19px;
+    padding-bottom:5px;
+}
+/* .next-box  */
+
+
